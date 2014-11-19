@@ -1,9 +1,9 @@
-# Twister Testing framework
+# Robot Testing framework
 #
-# Build a docker image that runs the twister testing framework
-# (http://twistertesting.luxoft.com/)
+# Build a docker image that runs the robot testing framework
+# (http://robotframework.org/)
 # Authors: Dan Babb
-# Updated November 17th, 2014
+# Updated November 19th, 2014
 # Require: Docker (http://www.docker.io/)
 #
 # From Centos
