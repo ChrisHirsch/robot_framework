@@ -11,8 +11,10 @@ from centos:6
 
 run yum update -y
 run yum upgrade -y
+run /bin/rpm -Uvh http://download.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch.rpm
 run yum install -y python
-run pip install robotframework
+run yum install -y python-pip
+run /usr/bin/pip install robotframework
 
 #External volumes for test scripts and results
-volume ["/robot/tests"]
+volume ["/tests"]
